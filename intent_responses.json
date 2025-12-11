@@ -1,0 +1,82 @@
+{
+  "greeting": "Hello! Welcome to QualtSpire. I'm here to help you upgrade your skills. What course are you looking for today?",
+  "goodbye": "Goodbye! Keep learning and growing. Visit us again at QualtSpire!",
+  "thanks": "You're very welcome! Let me know if you need anything else.",
+  "smalltalk_how_are_you": "I'm doing great and ready to help you find the perfect course! How are you?",
+  
+  "about_qualtspire": "QualtSpire is an ed-tech platform dedicated to providing practical, hands-on training in tech skills like Web Development, UI/UX, and Excel. We focus on real-world projects, not just theory.",
+  "about_mission": "Our mission is to empower students and professionals with affordable, high-quality technical education that leads to real career opportunities.",
+  "about_instructors": "Our courses are taught by industry experts who have real-world experience in Full Stack Development, Design, and Data Analysis.",
+  
+  "contact_info": "You can reach us via email at qualtspire@hotmail.com or call us at +91 8318926430.",
+  "contact_phone": "Our support number is +91 8318926430. We are available during business hours.",
+  "contact_email": "Please send your queries to qualtspire@hotmail.com. We usually respond within 24 hours.",
+  "contact_address": "Our office is located at: Bharti puram colony, Sarkari tube bell near Choudhri niwas, Tiwari ganj, Lucknow 226028.",
+  "contact_hours": "Our support team is available Monday to Friday, 9:00 AM to 6:00 PM IST.",
+  
+  "social_youtube": "Yes! Check out our free tutorials on our YouTube channel. (Link available on our homepage)",
+  "social_instagram": "Follow us on Instagram for daily tips and updates! (Link on homepage)",
+  "social_github": "You can check our open-source projects and code repositories on GitHub.",
+  
+  "courses_offered": "We offer a variety of courses including 'Zero to Full Stack Hero', 'Master English in 30 Days', 'Excel Basic to Advance', and 'UI/UX Design'.",
+  "course_levels": "We have courses for all levels! Our 'Zero to Full Stack Hero' is perfect for beginners, while we also have advanced modules for experienced pros.",
+  "course_practical_focus": "Absolutely. QualtSpire focuses on 'Learning by Doing'. You will build real-world projects like e-commerce sites and dashboards.",
+  "enrollment_process": "To enroll, simply go to our Courses page, select the course you like, and click 'Buy Now'. You'll get instant access after payment.",
+  
+  "course_english_overview": "The 'Master English in 30 Days' course is designed to improve your fluency and confidence in professional communication.",
+  "course_english_price": "The English Speaking course is affordably priced. Please check the course page for the latest discount!",
+  "course_english_duration": "This is a 30-day intensive program designed to boost your skills quickly.",
+  "course_english_syllabus": "You will learn grammar basics, professional email writing, public speaking confidence, and interview skills.",
+  
+  "course_fullstack_hero_overview": "Our 'Zero to Full Stack Hero' bootcamp takes you from writing your first line of code to building complete web applications.",
+  "course_fullstack_hero_price": "This is our premium bootcamp. Visit the course page to see the current pricing and installment options.",
+  "course_fullstack_hero_syllabus": "The syllabus covers HTML, CSS, JavaScript, React.js, Node.js, Express, and MongoDB.",
+  "course_fullstack_hero_prerequisites": "No prior coding experience is required! We start from the absolute basics.",
+  "course_fullstack_hero_projects": "You will build 5+ major projects, including a clone of Netflix and a fully functional e-commerce store.",
+  
+  "course_webdev_qualtspire_overview": "The 'QualtSpire Full Stack Web Development' course is a comprehensive path for those wanting to master the MERN stack.",
+  "course_webdev_qualtspire_duration": "The course spans approximately 12 weeks of self-paced learning with weekly live doubt sessions.",
+  "course_webdev_qualtspire_cert": "Yes, you will receive a verified Certificate of Completion from QualtSpire upon finishing the course.",
+  
+  "course_excel_overview": "Our 'Excel Basic to Advance' course turns you into a spreadsheet wizard, teaching you everything from sums to complex macros.",
+  "course_excel_price": "The Excel course is priced very competitively. Check the website for the latest deal!",
+  "course_excel_syllabus": "Topics include VLOOKUP, Pivot Tables, Data Visualization, Macros, and VBA scripting.",
+  "course_excel_career": "Excel skills are in high demand for Data Analyst, Accountant, and Administrative roles.",
+  
+  "course_uiux_overview": "The UI/UX course teaches you how to design beautiful, user-friendly mobile and web interfaces.",
+  "course_uiux_tools": "You will master industry-standard tools like Figma and Adobe XD.",
+  "course_uiux_syllabus": "We cover Design Theory, Wireframing, Prototyping, and User Testing.",
+  "course_uiux_portfolio": "Yes! By the end of the course, you will have a professional design portfolio to show potential employers.",
+  
+  "faq_refunds": "We have a student-friendly refund policy. If you are not satisfied within the first 7 days, let us know for a full refund.",
+  "faq_lifetime_access": "Yes! Once you buy a course, you get lifetime access to the videos and future updates.",
+  "faq_certification": "All our paid courses come with a certificate that you can add to your LinkedIn profile.",
+  "faq_mobile_access": "Yes, our platform is mobile-friendly so you can learn on the go.",
+  "faq_payment_methods": "We accept UPI, Credit/Debit Cards, and Net Banking.",
+  
+  "career_opportunities": "Our courses are designed to get you job-ready. We provide resume reviews and mock interviews for our bootcamp students.",
+  "career_support": "We have a dedicated career support team that helps you find internships and junior developer roles.",
+  
+  "tech_issue_login": "If you can't log in, please click 'Forgot Password' or email us at qualtspire@hotmail.com.",
+  "tech_issue_video": "If videos aren't playing, please check your internet connection or try clearing your browser cache.",
+  
+  "testimonials_general": "Our students love us! 'Gene Bates' from Cambridge University called our courses 'comprehensive', and 'Laura Mckenzie' loved the practical focus.",
+  "testimonials_success_stories": "Many of our students have secured jobs at companies like Quarter Ltd. and freelance projects globally.",
+  
+  "skill_recommendation_beginner": "For complete beginners, we recommend 'Zero to Full Stack Hero' or 'Excel Basic to Advance'.",
+  "skill_recommendation_creative": "If you are creative and like design, 'UI/UX Design' is the perfect course for you.",
+  "skill_recommendation_job": "The 'Full Stack Web Development' course has the highest hiring potential in the current market.",
+  
+  "discount_codes": "We often run seasonal sales. Subscribe to our newsletter to get the latest coupon codes.",
+  "community_access": "Yes, all students get access to our exclusive Discord community to ask questions and network.",
+  
+  "instructor_mentorship": "Our premium courses include weekly mentorship calls where you can ask doubts directly to the instructor.",
+  "language_of_instruction": "Our courses are primarily taught in English, with simple explanations suitable for everyone.",
+  
+  "certificate_validity": "Our certificates are valid for a lifetime and are recognized by many startups and tech companies.",
+  "project_reviews": "Yes, your capstone projects will be reviewed by our mentors to ensure code quality.",
+  
+  "learning_path_frontend": "To become a Frontend Developer, focus on our HTML, CSS, React, and UI/UX modules.",
+  "learning_path_backend": "For Backend roles, dive deep into our Node.js, Express, and Database modules.",
+  "learning_path_fullstack": "The Full Stack path combines both frontend and backend. It's our most comprehensive track."
+}

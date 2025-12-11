@@ -1,0 +1,7 @@
+pandas
+openpyxl
+google-generativeai
+python-dotenv
+scikit-learn
+numpy
+sentence-transformers

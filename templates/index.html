@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QualtSpire Bot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: sans-serif; background-color: #f4f4f9; display: flex; justify-content: center; height: 100vh; margin: 0; }
+        .chat-container { width: 100%; max-width: 400px; background: white; display: flex; flex-direction: column; box-shadow: 0 0 10px rgba(0,0,0,0.1); height: 100%; }
+        .chat-header { background: #007bff; color: white; padding: 15px; text-align: center; font-weight: bold; }
+        .chat-box { flex: 1; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; }
+        .message { padding: 10px 15px; border-radius: 20px; max-width: 80%; font-size: 14px; }
+        .user { background: #007bff; color: white; align-self: flex-end; }
+        .bot { background: #e9ecef; color: black; align-self: flex-start; }
+        .input-area { padding: 10px; border-top: 1px solid #ddd; display: flex; }
+        input { flex: 1; padding: 10px; border: 1px solid #ddd; border-radius: 20px; outline: none; }
+        button { margin-left: 10px; padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 20px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">QualtSpire Support</div>
+        <div class="chat-box" id="chatbox">
+            <div class="message bot">Hello! How can I help you today?</div>
+        </div>
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Type a message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        function sendMessage() {
+            var input = document.getElementById("userInput");
+            var message = input.value;
+            if (message.trim() === "") return;
+
+            // Add User Message
+            var chatbox = document.getElementById("chatbox");
+            chatbox.innerHTML += `<div class="message user">${message}</div>`;
+            input.value = "";
+            chatbox.scrollTop = chatbox.scrollHeight;
+
+            // Fetch Bot Response
+            fetch(`/get?msg=${message}`)
+                .then(response => response.text())
+                .then(data => {
+                    chatbox.innerHTML += `<div class="message bot">${data}</div>`;
+                    chatbox.scrollTop = chatbox.scrollHeight;
+                });
+        }
+        
+        // Allow "Enter" key to send
+        document.getElementById("userInput").addEventListener("keypress", function(event) {
+            if (event.key === "Enter") sendMessage();
+        });
+    </script>
+</body>
+</html>
