@@ -1,8 +1,5 @@
-pandas
-openpyxl
-google-generativeai
-python-dotenv
+flask
+gunicorn
+sentence-transformers
 scikit-learn
 numpy
-sentence-transformers
-gunicorn
